@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  ico_159:
+    image: prakash/btctalk
+    tty: true
+    restart: always
+    environment:
+      - BOARD=159
+      - TERM=masternode
+      - GDOC=Master_Nodes
+      - SHEET=New_Coins
+
